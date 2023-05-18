@@ -12,6 +12,10 @@
         android:theme="@style/Theme.GridViewDemo"
         tools:targetApi="31">
         <activity
+            android:name=".tasks.SimpleCalculator"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".tasks.SimpleInterest"
             android:exported="false"
             android:parentActivityName=".MainActivity" />

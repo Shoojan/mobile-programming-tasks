@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.gridviewdemo.tasks.LoginForm;
 import com.example.gridviewdemo.tasks.PhoneDialer;
 import com.example.gridviewdemo.tasks.SecretMessage;
+import com.example.gridviewdemo.tasks.SimpleCalculator;
 import com.example.gridviewdemo.tasks.SimpleInterest;
 import com.example.gridviewdemo.tasks.StudentTable;
 import com.example.gridviewdemo.tasks.VisitingCard;
@@ -54,6 +55,9 @@ public class ExpTaskViewAdapter extends RecyclerView.Adapter<ExpTaskViewAdapter.
                     break;
                 case STUDENT_TABLE:
                     this.startActivity(context, StudentTable.class);
+                    break;
+                case CALCULATOR:
+                    this.startActivity(context, SimpleCalculator.class);
                     break;
                 case SIMPLE_INTEREST:
                     this.startActivity(context, SimpleInterest.class);
