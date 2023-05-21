@@ -12,6 +12,14 @@
         android:theme="@style/Theme.GridViewDemo"
         tools:targetApi="31">
         <activity
+            android:name=".tasks.StudentInfoDisplay"
+            android:exported="false"
+            android:parentActivityName=".tasks.StudentInfo" />
+        <activity
+            android:name=".tasks.StudentInfo"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".tasks.SimpleCalculator"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
@@ -29,9 +37,11 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.VisitingCard"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.PhoneDialer"
+            android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.SecretMessage"

@@ -6,6 +6,7 @@ public enum TaskConstants {
     STUDENT_TABLE("Student Table"),
     SIMPLE_INTEREST("Simple Interest"),
     CALCULATOR("Calculator"),
+    STUDENT_INFO("Student Information"),
     PHONE_DIALER("Phone Dialer"),
     SECRET_MESSAGE("Secret Message");
 

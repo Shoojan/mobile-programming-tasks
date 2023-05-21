@@ -18,7 +18,7 @@ public class SimpleInterest extends AppCompatActivity {
     }
 
     public void onSimpleInterestCalculateBtnClicked(View view) {
-        double principal = Double.parseDouble(((EditText) findViewById(R.id.prinicpalEditText)).getText().toString());
+        double principal = Double.parseDouble(((EditText) findViewById(R.id.nameTextView)).getText().toString());
         int time = Integer.parseInt(((EditText) findViewById(R.id.timeEditText)).getText().toString());
         double rate = Double.parseDouble(((EditText) findViewById(R.id.rateEditText)).getText().toString());
 
