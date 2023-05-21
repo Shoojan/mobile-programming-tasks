@@ -12,6 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.gridviewdemo.tasks.LoginForm;
+import com.example.gridviewdemo.tasks.fragments.NewsPortalDesign;
 import com.example.gridviewdemo.tasks.PhoneDialer;
 import com.example.gridviewdemo.tasks.SecretMessage;
 import com.example.gridviewdemo.tasks.SimpleCalculator;
@@ -72,6 +73,9 @@ public class ExpTaskViewAdapter extends RecyclerView.Adapter<ExpTaskViewAdapter.
                 case SECRET_MESSAGE:
                     Intent secretMsgIntent = new Intent(context, SecretMessage.class);
                     context.startActivityForResult(secretMsgIntent, 222);
+                    break;
+                case NEWS_PORTAL:
+                    this.startActivity(context, NewsPortalDesign.class);
                     break;
             }
         });

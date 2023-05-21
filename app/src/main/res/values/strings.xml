@@ -5,4 +5,11 @@
         <item>Female</item>
         <item>Others</item>
     </string-array>
+    <string-array name="headlines">
+        <item>9 students couldn\'t make it.</item>
+        <item>Most still have no idea about Mobile Programming.</item>
+        <item>Assignments submission is too late.</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

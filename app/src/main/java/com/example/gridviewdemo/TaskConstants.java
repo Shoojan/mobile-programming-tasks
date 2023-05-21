@@ -8,7 +8,8 @@ public enum TaskConstants {
     CALCULATOR("Calculator"),
     STUDENT_INFO("Student Information"),
     PHONE_DIALER("Phone Dialer"),
-    SECRET_MESSAGE("Secret Message");
+    SECRET_MESSAGE("Secret Message"),
+    NEWS_PORTAL("News Portal");
 
     public final String label;
 
