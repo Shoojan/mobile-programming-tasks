@@ -8,8 +8,6 @@ import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.EditText;
 
-import androidx.annotation.Nullable;
-
 import com.example.gridviewdemo.R;
 
 public class PhoneDialer extends Activity {
@@ -21,7 +19,6 @@ public class PhoneDialer extends Activity {
         setContentView(R.layout.phone_dialer);
 
         phoneText = findViewById(R.id.phoneText);
-
     }
 
     public void onCallBtnClicked(View view) {
@@ -30,7 +27,6 @@ public class PhoneDialer extends Activity {
         Intent intent = new Intent(Intent.ACTION_DIAL);
         intent.setData(Uri.parse("tel:" + phone));
         startActivity(intent);
-
     }
 
     public void onSaveBtnClicked(View view) {

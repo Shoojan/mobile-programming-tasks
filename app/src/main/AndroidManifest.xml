@@ -17,40 +17,54 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".tasks.SecretMessageReceiver"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Secret Message Receiver" />
+        <activity
             android:name=".tasks.StudentInfoDisplay"
             android:exported="false"
+            android:label="Student Info Display"
             android:parentActivityName=".tasks.StudentInfo" />
         <activity
             android:name=".tasks.StudentInfo"
             android:exported="false"
+            android:label="Student Info Form"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.SimpleCalculator"
             android:exported="false"
+            android:label="Simple Calculator"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.SimpleInterest"
             android:exported="false"
+            android:label="Simple Interest"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.StudentTable"
             android:exported="false"
+            android:label="Student Table Design"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.LoginForm"
             android:exported="false"
+            android:label="Login Form Design"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.VisitingCard"
             android:exported="false"
+            android:label="Visitng Card"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.PhoneDialer"
             android:exported="false"
+            android:label="Phone Dialer"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.SecretMessage"
             android:exported="false"
+            android:label="Secret Message"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"

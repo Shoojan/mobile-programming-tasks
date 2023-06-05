@@ -26,10 +26,11 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
+        android:src="@drawable/baseline_work_24"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/companyName"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/baseline_work_24" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/divider"
