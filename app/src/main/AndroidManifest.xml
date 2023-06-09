@@ -12,6 +12,11 @@
         android:theme="@style/Theme.GridViewDemo"
         tools:targetApi="31">
         <activity
+            android:name=".tasks.ImageGallery"
+            android:exported="false"
+            android:label="Image Gallery"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".tasks.fragments.NewsPortalDesign"
             android:exported="false"
             android:parentActivityName=".MainActivity"
@@ -19,8 +24,8 @@
         <activity
             android:name=".tasks.SecretMessageReceiver"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
-            android:label="Secret Message Receiver" />
+            android:label="Secret Message Receiver"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.StudentInfoDisplay"
             android:exported="false"
@@ -75,6 +80,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -9,7 +9,8 @@ public enum TaskConstants {
     STUDENT_INFO("Student Information"),
     PHONE_DIALER("Phone Dialer"),
     SECRET_MESSAGE("Secret Message"),
-    NEWS_PORTAL("News Portal");
+    NEWS_PORTAL("News Portal"),
+    IMAGE_GALLERY("Image Gallery");
 
     public final String label;
 

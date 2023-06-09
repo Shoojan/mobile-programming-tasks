@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.gridviewdemo.tasks.ImageGallery;
 import com.example.gridviewdemo.tasks.LoginForm;
 import com.example.gridviewdemo.tasks.SecretMessageReceiver;
 import com.example.gridviewdemo.tasks.fragments.NewsPortalDesign;
@@ -31,7 +32,6 @@ public class ExpTaskViewAdapter extends RecyclerView.Adapter<ExpTaskViewAdapter.
         this.context = context;
         this.tasks = tasks;
     }
-
 
     @NonNull
     @Override
@@ -76,6 +76,9 @@ public class ExpTaskViewAdapter extends RecyclerView.Adapter<ExpTaskViewAdapter.
                     break;
                 case NEWS_PORTAL:
                     this.startActivity(context, NewsPortalDesign.class);
+                    break;
+                case IMAGE_GALLERY:
+                    this.startActivity(context, ImageGallery.class);
                     break;
             }
         });
