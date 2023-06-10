@@ -10,9 +10,13 @@ public enum TaskConstants {
     PHONE_DIALER("Phone Dialer"),
     SECRET_MESSAGE("Secret Message"),
     NEWS_PORTAL("News Portal"),
-    IMAGE_GALLERY("Image Gallery");
+    AREA_CALCULATOR("Area Calculator"),
+    IMAGE_GALLERY("Image Gallery"),
+    IMAGE_GALLERY_RECYCLER("Image Gallery 2");
+
 
     public final String label;
+
 
     TaskConstants(String label) {
         this.label = label;

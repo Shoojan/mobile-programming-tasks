@@ -1,4 +1,4 @@
-package com.example.gridviewdemo.tasks;
+package com.example.gridviewdemo.tasks.imagegallery;
 
 public class Dog {
     int image;

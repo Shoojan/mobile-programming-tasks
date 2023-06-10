@@ -11,17 +11,18 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.gridviewdemo.tasks.ImageGallery;
 import com.example.gridviewdemo.tasks.LoginForm;
-import com.example.gridviewdemo.tasks.SecretMessageReceiver;
-import com.example.gridviewdemo.tasks.fragments.NewsPortalDesign;
 import com.example.gridviewdemo.tasks.PhoneDialer;
-import com.example.gridviewdemo.tasks.SecretMessage;
+import com.example.gridviewdemo.tasks.SecretMessageReceiver;
 import com.example.gridviewdemo.tasks.SimpleCalculator;
 import com.example.gridviewdemo.tasks.SimpleInterest;
 import com.example.gridviewdemo.tasks.StudentInfo;
 import com.example.gridviewdemo.tasks.StudentTable;
 import com.example.gridviewdemo.tasks.VisitingCard;
+import com.example.gridviewdemo.tasks.fragments.NewsPortalDesign;
+import com.example.gridviewdemo.tasks.imagegallery.ImageGallery;
+import com.example.gridviewdemo.tasks.imagegallery.ImageGalleryRecyclerAdapter;
+import com.example.gridviewdemo.tasks.imagegallery.ImageGalleryUsingRecyclerView;
 
 public class ExpTaskViewAdapter extends RecyclerView.Adapter<ExpTaskViewAdapter.MyViewHolder> {
 
@@ -79,6 +80,9 @@ public class ExpTaskViewAdapter extends RecyclerView.Adapter<ExpTaskViewAdapter.
                     break;
                 case IMAGE_GALLERY:
                     this.startActivity(context, ImageGallery.class);
+                    break;
+                case IMAGE_GALLERY_RECYCLER:
+                    this.startActivity(context, ImageGalleryUsingRecyclerView.class);
                     break;
             }
         });

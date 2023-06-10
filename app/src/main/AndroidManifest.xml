@@ -12,9 +12,17 @@
         android:theme="@style/Theme.GridViewDemo"
         tools:targetApi="31">
         <activity
-            android:name=".tasks.ImageGallery"
+            android:name=".tasks.AreaCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".tasks.imagegallery.ImageGallery"
             android:exported="false"
             android:label="Image Gallery"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".tasks.imagegallery.ImageGalleryUsingRecyclerView"
+            android:exported="false"
+            android:label="Image Gallery 2"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".tasks.fragments.NewsPortalDesign"

@@ -1,4 +1,4 @@
-package com.example.gridviewdemo.tasks;
+package com.example.gridviewdemo.tasks.imagegallery;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
