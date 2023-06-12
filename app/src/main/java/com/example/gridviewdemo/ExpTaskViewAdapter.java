@@ -19,9 +19,10 @@ import com.example.gridviewdemo.tasks.SimpleInterest;
 import com.example.gridviewdemo.tasks.StudentInfo;
 import com.example.gridviewdemo.tasks.StudentTable;
 import com.example.gridviewdemo.tasks.VisitingCard;
+import com.example.gridviewdemo.tasks.area.AreaCalculator;
+import com.example.gridviewdemo.tasks.contact.ContactApp;
 import com.example.gridviewdemo.tasks.fragments.NewsPortalDesign;
 import com.example.gridviewdemo.tasks.imagegallery.ImageGallery;
-import com.example.gridviewdemo.tasks.imagegallery.ImageGalleryRecyclerAdapter;
 import com.example.gridviewdemo.tasks.imagegallery.ImageGalleryUsingRecyclerView;
 
 public class ExpTaskViewAdapter extends RecyclerView.Adapter<ExpTaskViewAdapter.MyViewHolder> {
@@ -78,11 +79,17 @@ public class ExpTaskViewAdapter extends RecyclerView.Adapter<ExpTaskViewAdapter.
                 case NEWS_PORTAL:
                     this.startActivity(context, NewsPortalDesign.class);
                     break;
+                case AREA_CALCULATOR:
+                    this.startActivity(context, AreaCalculator.class);
+                    break;
                 case IMAGE_GALLERY:
                     this.startActivity(context, ImageGallery.class);
                     break;
                 case IMAGE_GALLERY_RECYCLER:
                     this.startActivity(context, ImageGalleryUsingRecyclerView.class);
+                    break;
+                case CONTACT_APP:
+                    this.startActivity(context, ContactApp.class);
                     break;
             }
         });

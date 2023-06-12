@@ -12,7 +12,8 @@ public enum TaskConstants {
     NEWS_PORTAL("News Portal"),
     AREA_CALCULATOR("Area Calculator"),
     IMAGE_GALLERY("Image Gallery"),
-    IMAGE_GALLERY_RECYCLER("Image Gallery 2");
+    IMAGE_GALLERY_RECYCLER("Image Gallery 2"),
+    CONTACT_APP("My Contacts");
 
 
     public final String label;

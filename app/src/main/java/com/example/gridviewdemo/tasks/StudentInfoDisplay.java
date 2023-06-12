@@ -18,7 +18,7 @@ public class StudentInfoDisplay extends AppCompatActivity {
         Intent intent = getIntent();
 
         TextView rollNoTextView = findViewById(R.id.rollNoTextView);
-        TextView nameTextView = findViewById(R.id.nameTextView);
+        TextView nameTextView = findViewById(R.id.lengthEditText);
         TextView genderTextView = findViewById(R.id.genderTextView);
         TextView addressTextView = findViewById(R.id.addressTextView);
 
